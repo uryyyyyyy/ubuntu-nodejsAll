@@ -11,3 +11,4 @@ RUN set -x && \
   apt-get update && apt-get install -y yarn && \
   apt-get install -y chromium-browser
 
+ENV CHROME_BIN /usr/bin/chromium-browser
